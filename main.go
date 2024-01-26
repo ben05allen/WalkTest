@@ -19,6 +19,7 @@ func main() {
 		AssignTo: &mw,
 		Title:    "What's my age?",
 		Size:     Size{Width: 400, Height: 300},
+        Icon:     "walking.ico",
 		Layout:   VBox{},
 		Children: []Widget{
 			Composite{
